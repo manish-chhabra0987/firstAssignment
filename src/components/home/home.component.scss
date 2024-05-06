@@ -1,30 +1,41 @@
-.main-section{
+.main-section {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 280px;
-    .main-text{
+
+    .main-text {
         position: absolute;
         bottom: 10%;
+        background: linear-gradient(to bottom, red, yellow);
+        /* Define your gradient colors */
+        -webkit-background-clip: text;
+        /* For Safari */
+        background-clip: text;
+        color: transparent;
     }
-    .image-section{
+
+    .image-section {
         z-index: 101;
     }
 }
 
 @media only screen and (max-width:475px) {
-    .main-section{
+    .main-section {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 150px;
-        .main-text{
+
+        .main-text {
             position: absolute;
             bottom: 35%;
         }
-        .image-section{
+
+        .image-section {
             z-index: 101;
-            img{
+
+            img {
                 width: 85%;
                 height: 60%;
             }
