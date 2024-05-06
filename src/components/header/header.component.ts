@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
@@ -6,21 +6,15 @@ import { Router, RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-
-  constructor(
-    private router : Router
-  ){
-
+  constructor(private router: Router) {
   }
 
   ngOnInit(): void {
-    
+
   }
 
   toggleButton: boolean = false;
-
-  
 }
