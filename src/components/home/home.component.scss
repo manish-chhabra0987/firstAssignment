@@ -1,0 +1,33 @@
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 280px;
+    .main-text{
+        position: absolute;
+        bottom: 10%;
+    }
+    .image-section{
+        z-index: 101;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    .main-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 150px;
+        .main-text{
+            position: absolute;
+            bottom: 35%;
+        }
+        .image-section{
+            z-index: 101;
+            img{
+                width: 85%;
+                height: 60%;
+            }
+        }
+    }
+}
