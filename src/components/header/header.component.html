@@ -26,6 +26,9 @@
         <a class="nav-link" [routerLink]="['/register']" routerLinkActive="active-link">Register</a>
       </li>
     </ul>
-
+    
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" [(ngModel)]="isChecked" (ngModelChange)="changeBackground()">
+    </div>
   </div>
 </nav>
