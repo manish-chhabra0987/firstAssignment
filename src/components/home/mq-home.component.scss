@@ -1,0 +1,20 @@
+@media only screen and (min-width: 476px) and (max-width: 700px) {
+    .main-text {
+     font-size: 255px !important;
+    }
+    .image-section {
+     transform: scale(0.5) !important;
+     top: -80px !important;
+     left: -97px !important;
+ }
+ }
+ @media only screen and (max-width: 475px) {
+     .main-text {
+         font-size: 150px !important;
+     }
+     .image-section {
+         transform: scale(0.3) !important;
+         top: -45px !important;
+         left: -130px !important;
+     }
+ }
