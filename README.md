@@ -1,27 +1,5 @@
-# FrontendAssignment
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![home with white mode](https://github.com/manish-chhabra0987/firstAssignment/assets/91949136/11cf0019-58d4-4b12-92dd-bc538d564002)
+![home with dark mode](https://github.com/manish-chhabra0987/firstAssignment/assets/91949136/5429c7f6-12c9-426f-8a9d-54b0f14255dd)
+![header](https://github.com/manish-chhabra0987/firstAssignment/assets/91949136/9c0f4c7f-fe95-4c9d-ba07-4a08f30f5dea)
+![event white mode](https://github.com/manish-chhabra0987/firstAssignment/assets/91949136/89d73865-15e2-4fdd-a909-7ccdcb4002b4)
+![event dark component](https://github.com/manish-chhabra0987/firstAssignment/assets/91949136/c1a31279-852b-43e6-a714-3d10526c4fd4)
