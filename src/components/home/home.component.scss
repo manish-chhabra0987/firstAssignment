@@ -2,43 +2,62 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 280px;
+    // font-size: 280px;
+    height: calc(100vh - 60px);
+    margin-left: -25px;
 
+    .centerContent {
+        position: relative; 
+        display: flex;
+        height: 273px;
+    }
     .main-text {
-        position: absolute;
-        bottom: 10%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
         background: linear-gradient(to bottom, red, yellow);
         /* Define your gradient colors */
         -webkit-background-clip: text;
         /* For Safari */
         background-clip: text;
         color: transparent;
+        font-size: 315px;
+        overflow: hidden;
+    }
+    img {
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
     }
 
     .image-section {
-        z-index: 101;
+        position: absolute;
+        transform: scale(0.6);
+        top: -130px;
+        left: -77px;
+    }
+    .zIndex {
+        z-index: 100;
     }
 }
 
-@media only screen and (max-width:475px) {
-    .main-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 150px;
-
-        .main-text {
-            position: absolute;
-            bottom: 35%;
-        }
-
-        .image-section {
-            z-index: 101;
-
-            img {
-                width: 85%;
-                height: 60%;
-            }
-        }
+@media only screen and (min-width: 476px) and (max-width: 700px) {
+   .main-text {
+    font-size: 255px !important;
+   }
+   .image-section {
+    transform: scale(0.5) !important;
+    top: -80px !important;
+    left: -97px !important;
+}
+}
+@media only screen and (max-width: 475px) {
+    .main-text {
+        font-size: 150px !important;
+    }
+    .image-section {
+        transform: scale(0.3) !important;
+        top: -45px !important;
+        left: -130px !important;
     }
 }

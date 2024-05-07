@@ -1,3 +1,19 @@
-.active-link{
+.active-link {
     color: red;
+}
+
+.navbar {
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+        top: 55px;
+        z-index: 100;
+        padding-left: 10px;
+    }
 }
